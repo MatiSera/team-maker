@@ -5,20 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img style={{display: 'block', width: '100%', height: '100%', objectFit: 'cover'}} src="https://webassets.inman.com/wp-content/uploads/2019/10/Untitled-design-2019-10-29T153346.079-1400x621.jpg" />
     </div>
   );
 }
