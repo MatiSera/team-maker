@@ -1,0 +1,26 @@
+.button {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  width: 280;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 90px;
+}
+
+.button__text {
+  font-family: Rubik, sans-serif;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .button {
+    width: 180px;
+    height: 40px;
+  }
+  .button__text {
+    font-size: 20px;
+  }
+}
